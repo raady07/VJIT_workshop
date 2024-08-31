@@ -1,0 +1,36 @@
+Every Class ends with an assignment task.
+
+Step 1:
+    create a repository and clone the repository to your local machine.
+
+Step 2:
+    - create a virtual environment ( see "Study Materials/Git Command Execution.txt")
+    - Login to your virtualenv
+    - install your requirements
+        $ pip install -r requirements.txt
+        you need to repeat the step when ever u add new libraries to the file.
+        makesure you add the versions also. 
+    - build for your code
+    - git add, git commit and push your changes ( see "Study Materials/Git Command Execution.txt")
+    - verify your changes are appearing in the git.
+Step 3:
+    you will be given 5 days to work on assignments and your teachers will verify the codes.
+
+
+*******************
+Mandate Day 1
+*******************
+    You can check the basic template from sample projects created for your understanding. 
+    you need to create 2 folders, one for datageneration ( which will be used only for verification) and another one is for code.
+    
+    Batch <number> Serial <number>
+    - serial number is the assignment to be created
+    - your code should run on port defined as below
+        8<batchnumber><serialnumber>
+        eg, if you are batch 3 serial 2, you code will run on 8301
+            if you are batch 4 serial 10, you code will run on 8410
+
+    Acceptance:
+        1. run application without errors on given port 
+        2. make it as a docker container and run the applica
+    

@@ -1,0 +1,58 @@
+You need the following tools for effectively working on this workshop
+1. MySQL workbench
+2. VisualStudio code
+3. postman
+4. Microsoft Teams
+5. Sublime Text Editor
+
+
+Step 1: Install MySQL workbench
+    - Follow Link: https://www.geeksforgeeks.org/how-to-install-mysql-workbench-on-ubuntu/
+    - If you are using ubunuo 20.04 or higher version you install from snap 
+       $ sudo apt update
+       $ sudo snap install snapd
+       $ snap install mysql-workbench-community
+       $ sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
+    - Configure the database
+        get host address, username, password from config.json in code
+        use steps mentioned in "Connet to Database from workbench.pdf"
+
+Step 2: Install VisualStudio Code
+    - run the following commands
+        $ sudo apt update
+        $ sudo apt install software-properties-common apt-transport-https wget -y
+        $ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+        $ sudo apt install code
+
+Step 3: Install Postman
+    Open Software Center in Ubuntu and search for postman and click Install.
+    Alternative for Postman is "Insomnia", https://insomnia.rest/download
+
+Step 4: Microsoft Teams
+    Open Software Center in Ubuntu and search for teams-for-linux and click Install.
+    
+Step 5: Sublime text Editor
+    download file 64bit.deb file from https://www.sublimetext.com/3
+    double click on the downloaded files
+
+
+
+******************************************
+Mandate
+******************************************
+- You need to have git install 
+    $ sudo apt install git
+
+- You need to have docker installed
+    $ sudo apt update
+    $ sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+    $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    $ apt-cache policy docker-ce
+    $ sudo apt install docker-ce -y
+
+- You need to have virutalenv installed
+    $ sudo apt install python3-virtualenv
+
+- You need to have tmux installed
+    $ sudo apt-get install tmux

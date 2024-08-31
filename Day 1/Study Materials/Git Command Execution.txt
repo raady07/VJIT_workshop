@@ -1,0 +1,37 @@
+1. Pull the repository that you want
+    $ git pull origin <repo_link>
+    - incase if you have new changes in the repo you can run the above command again.
+
+2. Check the branch in your repo 
+    $ git branch
+
+3. Create a new branch 
+    $ git checkout -b <branchname>
+
+4. Change to new branch
+    $ git checkout <branchname>
+
+5. Check the status of your branch
+    $ git status
+    ** staged files will appear in green and unstaged files will appear in required
+
+6. Stage your changes
+    $ git add <filename>
+    if you wish to add the files
+    $ git add .
+
+7. Commit your changes
+    $ git commit -m "your message"
+
+8. Push changes to repo
+    $ git push origin <branchname>
+
+
+
+**********************
+Expected Errors
+**********************
+If you not configured your repository with your credentials it may throw error when do git commit.
+    - config user name and email for your repository
+        $ config user.name "yourname"
+        $ config user.email "your logged in email"

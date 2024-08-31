@@ -1,0 +1,6 @@
+1. Basic Installations
+    https://youtu.be/AFUvwYF9rC4
+
+2. Creating an app that interacts with database
+    https://youtu.be/cjRwE4i37Pw ( part 1 )
+    https://youtu.be/Iiv7fIySsXo ( Part 2 )

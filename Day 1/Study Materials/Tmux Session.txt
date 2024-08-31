@@ -1,0 +1,22 @@
+- List Sessions 
+    $ tmux ls
+- Create New Sessions
+    $ tmux new -s <name>
+- Attach Sessions
+    $ tmux a -t <name>
+- Deattach
+    Ctrl B + D
+
+***********************
+Mandate
+***********************
+For longer training of codes with ML algorithms you need to run code in tmux Sessions
+
+Step 1:
+    Create a new session
+Step 2:
+    navigate to you main file and run the code
+Step 3: 
+    Deattach from the session
+Step 4: 
+    incase if you want to attach you run attach commands.

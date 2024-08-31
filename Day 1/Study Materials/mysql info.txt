@@ -1,0 +1,52 @@
+Things to learn
+
+Any SQL query can be saved as .sql file
+
+1. Create a schema. 
+    CREATE DATABASE databasename;
+    or 
+    CREATE SCHEMA databasename;
+
+    to use the schema double click on the work space
+    or run through commands
+    USE databasename;
+
+2. Create a table
+    The CREATE TABLE statement is used to create a new table in a database.
+
+    CREATE TABLE table_name (
+        column1 datatype,
+        column2 datatype,
+        column3 datatype,
+        ....
+    );
+
+3. Drop a table
+
+    The DROP TABLE statement is used to drop an existing table in a database.
+
+    DROP TABLE table_name;
+
+4. Insert data in to database
+    
+    The INSERT INTO statement is used to insert new records in a table.
+
+    INSERT INTO table_name (column1, column2, column3, ...)
+        VALUES (value1, value2, value3, ...);
+
+5. Update a row in database
+
+    The UPDATE statement is used to modify the existing records in a table.
+
+    UPDATE table_name
+    SET column1 = value1, column2 = value2, ...
+    WHERE condition;
+
+
+***************
+More reads
+***************
+1. https://www.w3schools.com/mysql/
+
+2. to learn more about mysql checkout
+   https://www.youtube.com/watch?v=7S_tz1z_5bA

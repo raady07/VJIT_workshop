@@ -1,0 +1,37 @@
+Docker images
+    - List
+        $ docker images ls
+        $ docker images
+    - Remove
+        $ docker rmi <imagename>
+    - Build a docker
+        $ docker image build -t <imagename>:<tagname> .
+
+Docker Container
+    - Run
+        $ docker run -p <requiredport>:<exposedport> <imagename>:<tagname>
+    - List 
+        $ docker ps
+    - List all dockers including exicted
+        $ docker ps -a
+    - Start
+        $ docker start <containername>
+    - Stop
+        $ docker stop <containername>
+    - Remove
+        $ docker rm <containername>
+Connect Container   
+    - enter running container
+        $ docker exec -it /bin/bash
+
+***********
+Note
+***********
+to avoid adding sudo everytime you need to configure the dockergroup to the user
+    $ sudo chmod 777 /var/run/docker.sock
+
+**************************************
+More Reads
+**************************************
+checkout the website 
+https://dockerlabs.collabnix.com/docker/cheatsheet/

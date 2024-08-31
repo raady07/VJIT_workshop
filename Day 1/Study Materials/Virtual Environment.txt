@@ -1,0 +1,15 @@
+It is very important not to disturb the system.
+You have to create a virtualenv for all of your installations.
+
+    - create a virtual environment inside your clone project
+        $ virtualenv -p python3 <venv_name>
+        venv name is preferred to start with . so that it will not mixup with python code. 
+        $ virtualenv -p python3 .venv_mytask
+        Dont forget to add  <venv_name>/ .venv_mytask in .gitignore file, so that virtual env installation
+        dont go to the repository, when you push your changes.
+    - login to your virtualenv
+        $ source .venv/bin/activate
+        then your prompt will look like
+        (.venv) path_to_directory $
+
+ 
