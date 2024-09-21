@@ -19,7 +19,7 @@ def check_data(id):
     query = 'select * from sample where id = "{}"'.format(id)
     result = {}
     try:
-        result = MySQLManager.execute_query(query, None, **CONFIG['database']['vjit'])
+        result = MySQLManager.execute_query(query, None, **CONFIG['myvalues'])
     except Exception as error:
         print(error)
     return result[0]

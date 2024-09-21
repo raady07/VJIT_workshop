@@ -1,0 +1,9 @@
+---
+version: '3.4'
+services:
+  myownNN:
+    build: .
+    container_name: my_nn_v1
+    image: my_nn_v1
+    ports:
+      - 9999:8999
